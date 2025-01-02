@@ -13,6 +13,23 @@ error_reporting(0);
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+     <style>
+
+
+
+        body {
+
+            background: linear-gradient(to right, rgb(245, 203, 126), rgb(114, 114, 114));
+
+            background-size: cover;
+
+            color: white;
+
+            font-family: 'Roboto', sans-serif;
+            background-image: url("image/cat.jpg");
+            
+        }
+        </style>
 </head>
 <body>
 
@@ -28,6 +45,10 @@ error_reporting(0);
       <label for="loginpassword">Password:</label>
       <input type="password" class="form-control" id="loginpassword" placeholder="Enter password" name="loginpassword" required>
     </div>
+    <div class="row">
+      <div class="col">ยังไม่ได้สมัครสมาชิกลงทะเบียน <a href="singup.php">ลงทะเบียนที่นี้</a></div>
+      <div class="col"></div>
+      <div class="col"></div>
     <button type="submit" class="btn btn-success" name="login" id="login">Login</button>
   </form>
 </div>

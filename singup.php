@@ -54,6 +54,23 @@ if(isset($_POST['signup'])){
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+
+
+
+        body {
+
+            background: linear-gradient(to right, rgb(245, 203, 126), rgb(114, 114, 114));
+
+            background-size: cover;
+
+            color: white;
+
+            font-family: 'Roboto', sans-serif;
+            background-image: url("image/cat.jpg");
+            
+        }
+        </style>
 </head>
 <body>
 
